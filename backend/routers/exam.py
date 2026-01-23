@@ -8,3 +8,4 @@ router = APIRouter()
 def submit_exam(attempt: ExamAttempt):
     result = process_exam_attempt(attempt)
     return result
+it 
